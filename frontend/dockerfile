@@ -1,7 +1,7 @@
 
-FROM node:14
+FROM node
 
-WORKDIR /usr/src/app
+WORKDIR /root/devops-fullstack-app/frontend/
 
 COPY package*.json ./
 RUN npm install
